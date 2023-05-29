@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="API.Controllers.AccountController" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAgAAAAQAAAABBAAAAAAABAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Controllers\AccountController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Controllers.AdminController" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAABAgAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AdminController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Controllers.BaseApiController" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\BaseApiController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Controllers.BuggyController" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAABAAAAAEAAAgAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\BuggyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Controllers.FallbackController" Collapsed="true">
+    <Position X="25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\FallbackController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Controllers.LikesController" Collapsed="true">
+    <Position X="12" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\LikesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Controllers.MessagesController" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgABAAAAAAAAAAAAAAAACACAAAA=</HashCode>
+      <FileName>Controllers\MessagesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Controllers.UsersController" Collapsed="true">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAgAJAAAAAQAAAEAAEAAAwAAAAAA=</HashCode>
+      <FileName>Controllers\UsersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Data.DataContext" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAEAAAAAACAAAAASAAAAA=</HashCode>
+      <FileName>Data\DataContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Data.UtcDateAnnotation" Collapsed="true">
+    <Position X="23.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAIAAAAACAAAAAAAAAIAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Data\DataContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Data.LikesRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAABAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Data\LikesRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="API.Data.MessageRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAAAAAAABAAAAABBAAAAAAAgAQAAAAAACBCBAAA=</HashCode>
+      <FileName>Data\MessageRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="API.Data.Seed" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Seed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Data.UnitOfWork" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAIAAAAAABEIAAAABAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Data\UnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="API.Data.UserRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAABQAAAAABAADAAAAAQAAAAAAAAAAABAA=</HashCode>
+      <FileName>Data\UserRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="API.DTOs.CreateMessageDto" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTOs\CreateMessageDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.DTOs.LikeDto" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAIgUAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>DTOs\LikeDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.DTOs.LoginDto" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>DTOs\LoginDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.DTOs.MemberDto" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAACCIgUAAACAAAQMAAAQACAAAAAAEAAA=</HashCode>
+      <FileName>DTOs\MemberDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.DTOs.MemberUpdateDto" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAACAAAQIAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>DTOs\MemberUpdateDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.DTOs.MessageDto" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAQAgAAAAQAAAJAAAAAggABAACAAAQACAAAAAA=</HashCode>
+      <FileName>DTOs\MessageDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.DTOs.PhotoDto" Collapsed="true">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAA=</HashCode>
+      <FileName>DTOs\PhotoDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.DTOs.RegisterDto" Collapsed="true">
+    <Position X="25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACIAQAAAAAAAAIQAAACCAAAAAAAAAA=</HashCode>
+      <FileName>DTOs\RegisterDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.DTOs.UserDto" Collapsed="true">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAgQAAAAAAAAAAAAAACAAAAAABAAA=</HashCode>
+      <FileName>DTOs\UserDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Entities.AppRole" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\AppRole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Entities.AppUser" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAAAAIAACCIACAAACAAAQMQAAwACAAAAAAEAAA=</HashCode>
+      <FileName>Entities\AppUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Entities.AppUserRole" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\AppUserRole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Entities.Connection" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Entities.Group" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Entities\Group.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Entities.Message" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAQAgAAgAQAAAIAAAAAggABAACAAAAACAAIAAA=</HashCode>
+      <FileName>Entities\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Entities.Photo" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAEAAIAAAAAAQAACAAAAAIAAAA=</HashCode>
+      <FileName>Entities\Photo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Entities.UserLike" Collapsed="true">
+    <Position X="19.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAIAABAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Entities\UserLike.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Errors.ApiException" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAIAAAIAAAAAA=</HashCode>
+      <FileName>Errors\ApiException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Extensions.ApplicationServiceExtensions" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\ApplicationServiceExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Extensions.ClaimsPrincipleExtensions" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\ClaimsPrincipleExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Extensions.DateTimeExtensions" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\DateTimeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Extensions.HttpExtensions" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Extensions\HttpExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Extensions.IdentityServiceExtensions" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\IdentityServiceExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Extensions.QueryableExtensions" Collapsed="true">
+    <Position X="23.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Extensions\QueryableExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Helpers.AutoMapperProfiles" Collapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\AutoMapperProfiles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Helpers.CloudinarySettings" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEgAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\CloudinarySettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Helpers.LikesParams" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\LikesParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Helpers.LogUserActivity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\LogUserActivity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="API.Helpers.MessageParams" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\MessageParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Helpers.PagedList&lt;T&gt;" Collapsed="true">
+    <Position X="25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAABAAAAAAAAAAAAAAAAAAAAAAAEIAAAAI=</HashCode>
+      <FileName>Helpers\PagedList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Helpers.PaginationHeader" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAABAAQAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Helpers\PaginationHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Helpers.PaginationParams" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAEAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Helpers\PaginationParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Helpers.UserParams" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAACAAQAAAQIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\UserParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Middleware.ExceptionMiddleware" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAwAAAAAAAAEAA=</HashCode>
+      <FileName>Middleware\ExceptionMiddleware.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.SignalR.MessageHub" Collapsed="true">
+    <Position X="21.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAAEAAAAAAAAAAAAiABABAAAAAAAAAAAACAAAAIgAA=</HashCode>
+      <FileName>SignalR\MessageHub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.SignalR.PresenceHub" Collapsed="true">
+    <Position X="19.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SignalR\PresenceHub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.SignalR.PresenceTracker" Collapsed="true">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAAAAAAAAACAAAAAAAIAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>SignalR\PresenceTracker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="API.Interfaces.ILikesRepository" Collapsed="true">
+    <Position X="14.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ILikesRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="API.Interfaces.IMessageRepository" Collapsed="true">
+    <Position X="16.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAAAAAAAAAAAAABAAAAAAAAgAQAAAAAACBCBAAA=</HashCode>
+      <FileName>Interfaces\IMessageRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="API.Interfaces.IPhotoService" Collapsed="true">
+    <Position X="18" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPhotoService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="API.Interfaces.ITokenService" Collapsed="true">
+    <Position X="19.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ITokenService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="API.Interfaces.IUnitOfWork" Collapsed="true">
+    <Position X="21.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAIAAAAAAAEIAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="API.Interfaces.IUserRepository" Collapsed="true">
+    <Position X="23.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAQAAAAAAAADAAAAAQAAAAAAAAAAABAA=</HashCode>
+      <FileName>Interfaces\IUserRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
